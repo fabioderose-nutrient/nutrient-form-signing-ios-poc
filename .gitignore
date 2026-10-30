@@ -1,0 +1,28 @@
+# Xcode and Swift Package Manager
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcresult
+.build/
+.swiftpm/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Python caches (form generator)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs, OS and tool files
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.zip
